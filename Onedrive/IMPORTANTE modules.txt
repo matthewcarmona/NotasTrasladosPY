@@ -1,0 +1,6 @@
+pip install xlrd -t .
+pip install openpyxl -t .
+pip install xlsx2html -t .
+pip install pdfkit -t .
+# Descargar los precompilados de wkhtmltopdf desde: https://wkhtmltopdf.org/downloads.html
+# Copiar en la carpeta raíz de Rocketbot y apuntar la carpeta bin en el path de las variables globales del sistema
