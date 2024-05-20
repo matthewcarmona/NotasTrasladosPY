@@ -8,8 +8,8 @@
     "email": {
         "smtp_server": "smtp.office365.com",
         "smtp_port": 587,
-        "smtp_username": "correo.automatizacion@gruporeditos.com",
-        "smtp_password": "Reditos2023*",
+        "smtp_username": "correo.ejemplo@ejemplo.com",
+        "smtp_password": "******",
         "email_settings": "email.json",
         "email_message": "mensaje.txt"
     },
