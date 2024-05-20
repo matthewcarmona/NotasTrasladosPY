@@ -1,1 +1,1 @@
-"aprendiz.gestion@gruporeditos.com",
+"ejemplo.ejemplo@gruporeditos.com",
