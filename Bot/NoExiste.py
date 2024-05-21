@@ -18,12 +18,12 @@ smtp_username = os.getenv('SMTP_USERNAME')
 smtp_password = os.getenv('SMTP_PASSWORD')
 
 smtp_port = smtp_port
-email_settings = {'subject': 'Entrega Notas Control de Operaciones $(fecha)', 'recipients': ['correo.automatizacion@gruporeditos.com','aprendiz.gestion@gruporeditos.com', 'alejandra.olarte@gruporeditos.com','Contabilidad@gruporeditos.com', 'monica.zuluaga@gruporeditos.com', 'controldeoperaciones@gruporeditos.com','danilo.ortiz@gruporeditos.com']}
+email_settings = {'subject': 'Entrega Notas Control de Operaciones $(fecha)', 'recipients': ['correo.ejemplo@ejemplo.com']}
 msg = """Buenos días,
 
 Lamentamos informar que no se ha encontrado el archivo de Reporte de Notas. Es importante verificar su ubicación en la carpeta correspondiente.
 
-Si tienes alguna pregunta o inquietud sobre la información proporcionada, no dudes en contactarnos a través del siguiente correo, adjuntando la evidencia relevante: correo.automatizacion@gruporeditos.com
+Si tienes alguna pregunta o inquietud sobre la información proporcionada, no dudes en contactarnos a través del siguiente correo, adjuntando la evidencia relevante: ejemplo.ejemplo@ejemplo.com
 
 Por favor, abstente de responder este correo.
 
