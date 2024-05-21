@@ -9,10 +9,10 @@ import sys
 # Cambiar el directorio de trabajo al directorio del script
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-archivo_excel = r"C:\Users\correo.automatizacio\OneDrive - GANA S.A\NotasTrasladosPY\Onedrive\reporte de notas.xls"
+archivo_excel = r"C:\Users\correo.ejemplo\OneDrive\NotasTrasladosPY\Onedrive\reporte de notas.xls"
 
 # Ruta base donde se encuentran los informes
-base_path = "C:\\Users\\correo.automatizacio\\OneDrive - GANA S.A\\NotasTrasladosPY"
+base_path = "C:\\Users\\correo.ejemplo\\OneDrive\\NotasTrasladosPY"
 
 # Obtenemos la fecha actual en el formato deseado: dia-mes-año
 today = dt.datetime.now().strftime("%d-%m-%Y")
