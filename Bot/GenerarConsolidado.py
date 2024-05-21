@@ -22,10 +22,10 @@ def load_database(workfolder_path, db_name):
         return None
 
 def main():
-    workfolder_path = r"C:\Users\correo.automatizacio\OneDrive - GANA S.A\NotasTrasladosPY"
+    workfolder_path = r"C:\Users\correo.ejemplo\OneDrive\NotasTrasladosPY"
     db_name = 'BD Productos Conciliaciones V1.xlsx'
     report_name = 'reporte de notas.xls'
-    onedrive_path = r"C:\Users\correo.automatizacio\OneDrive - GANA S.A\NotasTrasladosPY\Onedrive"
+    onedrive_path = r"C:\Users\correo.ejemplo\OneDrive\NotasTrasladosPY\Onedrive"
     control_template = 'Plantilla_ControlOp.xlsx'
     template_path = os.path.join(workfolder_path, "templates", control_template)
 
