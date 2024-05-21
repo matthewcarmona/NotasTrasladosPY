@@ -5,7 +5,7 @@ import pdfkit
 from xlsx2html import xlsx2html
 
 # Variables
-path = "C:\\Users\\correo.automatizacio\\OneDrive - GANA S.A\\NotasTrasladosPY"
+path = "C:\\Users\\correo.ejemplo\\OneDrive - GANA S.A\\NotasTrasladosPY"
 folder_name = 'comfama'
 
 # Función para corregir la codificación de un archivo HTML
