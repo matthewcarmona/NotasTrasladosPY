@@ -5,7 +5,7 @@ import zipfile
 import os
 
 # Ruta base donde se encuentran los informes
-base_path = "C:\\Users\\correo.automatizacio\\OneDrive - GANA S.A\\NotasTrasladosPY"
+base_path = "C:\\Users\\correo.ejemplo\\OneDrive - GANA S.A\\NotasTrasladosPY"
 
 # Obtenemos la fecha actual en el formato deseado: dia-mes-año
 today = dt.datetime.now().strftime("%d-%m-%Y")
