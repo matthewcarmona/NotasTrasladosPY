@@ -19,9 +19,9 @@ smtp_username = os.getenv('SMTP_USERNAME')
 smtp_password = os.getenv('SMTP_PASSWORD')
 
 # Variables de configuración
-path = "C:\\Users\\correo.automatizacio\\OneDrive - GANA S.A\\NotasTrasladosPY"
+path = "C:\\Users\\correo.ejemplo\\OneDrive - GANA S.A\\NotasTrasladosPY"
 smtp_port = smtp_port
-email_settings = {'subject': 'Entrega Notas Control de Operaciones $(fecha)', 'recipients': ['correo.automatizacion@gruporeditos.com','aprendiz.gestion@gruporeditos.com', 'alejandra.olarte@gruporeditos.com','Contabilidad@gruporeditos.com', 'monica.zuluaga@gruporeditos.com', 'controldeoperaciones@gruporeditos.com', 'danilo.ortiz@gruporeditos.com']}
+email_settings = {'subject': 'Entrega Notas Control de Operaciones $(fecha)', 'recipients': ['correo.ejemplo@ejemplo.com']}
 msg = """Buenos días,
 
 Mediante el proceso automático RPA se hace entrega a Contabilidad de las notas creadas
@@ -29,13 +29,13 @@ por canales como se relaciona en el archivo adjunto, así mismo, se envían los 
 PDF de las notas en mención.
  
 Cualquier duda o inquietud con la información reportada contacta al siguiente correo
-adjuntando la evidencia correspondiente correo.automatizacion@gruporeditos.com
+adjuntando la evidencia correspondiente ejemplo.ejemplo@ejemplo.com
  
 NOTA: Por favor seguir el siguiente procedimiento para la extracción de la información,
 paso 1: Descargar el .zip,  paso 2: dar click derecho al archivo, paso 3: seleccionar la opción 7zip y  paso 4: seleccionar extraer aquí(extract here).
  
 Por favor no responder ni enviar correos de respuesta a la cuenta 
-automata.mercadeo@gruporeditos.com.
+ejemplo.ejemplo@ejemplo.com.
  
 Cordialmente,"""
 smtp_server = smtp_server
