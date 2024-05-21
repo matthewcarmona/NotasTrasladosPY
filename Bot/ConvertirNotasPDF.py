@@ -7,7 +7,7 @@ from pdfkit import configuration
 from xlsx2html import xlsx2html
 
 
-path = "C:\\Users\\correo.automatizacio\\OneDrive - GANA S.A\\NotasTrasladosPY"
+path = "C:\\Users\\correo.ejemplo\\OneDrive - GANA S.A\\NotasTrasladosPY"
 config = configuration(wkhtmltopdf=r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe')
 
 
