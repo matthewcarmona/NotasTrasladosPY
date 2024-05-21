@@ -1,4 +1,4 @@
-from os.path import join, exists
+mpfrom os.path import join, exists
 from os import mkdir
 import pandas as pd
 import datetime as dt
@@ -6,7 +6,7 @@ import openpyxl as oxl
 from openpyxl.styles import Border, Side
 
 # Variables
-path = "C:\\Users\\correo.automatizacio\\OneDrive - GANA S.A\\NotasTrasladosPY"
+path = "C:\\Users\\correo.ejemplo\\OneDrive - GANA S.A\\NotasTrasladosPY"
 template = "Plantilla_PDF_EPM.xlsx"
 report_name = "reporte de notas.xls"
 onedrive_path = "C:\\Users\\correo.correo\\OneDrive\NotasTrasladosPY\\Onedrive"
