@@ -18,7 +18,7 @@ def read_file(file_path):
     return content
 
 def main():
-    workfolder_path = r"C:\Users\correo.automatizacio\OneDrive - GANA S.A\NotasTrasladosPY"
+    workfolder_path = r"C:\Users\correo.ejemplo\OneDrive - GANA S.A\NotasTrasladosPY"
     config_file = os.path.join(workfolder_path, "config.json")
 
     # Leer el archivo de configuración JSON
