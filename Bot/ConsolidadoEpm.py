@@ -9,7 +9,7 @@ from openpyxl.styles import Border, Side
 path = "C:\\Users\\correo.automatizacio\\OneDrive - GANA S.A\\NotasTrasladosPY"
 template = "Plantilla_PDF_EPM.xlsx"
 report_name = "reporte de notas.xls"
-onedrive_path = "C:\\Users\\correo.automatizacio\\OneDrive - GANA S.A\\NotasTrasladosPY\\Onedrive"
+onedrive_path = "C:\\Users\\correo.correo\\OneDrive\NotasTrasladosPY\\Onedrive"
 products = {'EPM': ('RECAUDOS EPM EN LINEA', 'RECAUDO PAGA A TU MEDIDA', 'REC EPM EN LINEA')}
 
 # Nombre de los reportes xls generados.
