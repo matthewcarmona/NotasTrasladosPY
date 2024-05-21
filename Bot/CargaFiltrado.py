@@ -30,7 +30,7 @@ def filter_products(df):
     return products
 
 def main():
-    workfolder_path = r"C:\Users\correo.automatizacio\OneDrive - GANA S.A\NotasTrasladosPY"
+    workfolder_path = r"C:\Users\correo.ejemplo\OneDrive\NotasTrasladosPY"
     db_name = 'BD Productos Conciliaciones V1.xlsx'
 
     # Cargar la base de datos
